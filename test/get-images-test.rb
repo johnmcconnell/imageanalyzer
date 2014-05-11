@@ -1,25 +1,16 @@
 require 'test/unit'
-require '../bin/image_finder'
+require 'bin/image_finder.rb'
 
 class GetImages < Test::Unit::TestCase
   def setup
     @image_finder = ImageFinder.new
-    assert(false, 'to do setup')
   end
 
   def grab_N_images
-    results = @image_finder.findImages
+    count = 100
+    results = @image_finder.findImages('credit cards',count)
 
-    assert(results.size == 100, 'not made')
+    assert(results.size == count, 'the image finder did not the correct 
+    number of images, found: ' + results.size)
   end
-
-  def save_N_images
-    results = @image_finder.findImages
-    @image_finder.saveImages(results)
-
-    results.each do |result|
-      assert(false, 'file should be in directory')
-    end
-  end
-
 end
