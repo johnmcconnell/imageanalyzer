@@ -1,7 +1,7 @@
 require 'google-search'
 
 class ImageFinder
-  def findImages(query_string)
+  def findImages(query_string,count)
     Google::Search:Image.new(:query => query_string).filter {|image|
       i.image_type == :jpg or i.image_type == :png
     }.map { 
