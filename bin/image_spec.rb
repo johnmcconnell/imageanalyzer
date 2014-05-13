@@ -23,7 +23,7 @@ describe ImageFinder, "grab 10 urls" do
 	] }
   
   it "converts the image url to file extension" do
-    finder = ImageFinder.new
+    finder = ImageFinder.new('credit cards',0)
     
     matches = extensions.zip(urls)
     
@@ -32,8 +32,16 @@ describe ImageFinder, "grab 10 urls" do
     end
   end
 
+  it "converts the image url to filename with offset" do
+    finder = ImageFinder.new('credit cards',4)
+    matches = filenames[4..2].zip(urls)
+    matches.each_with_index do |item,idx|
+      expect(item[0]).to eq(finder.nameForImageFromUrl(item[1],idx))
+    end
+  end
+
   it "returns a filename for an image url" do
-    finder = ImageFinder.new
+    finder = ImageFinder.new('credit cards',0)
     matches = filenames.zip(urls)
     
     matches.each_with_index do |item,idx|
@@ -43,9 +51,9 @@ describe ImageFinder, "grab 10 urls" do
 
   it "returns a list of images and saves them to disk" do
     count = 10
-    finder = ImageFinder.new
+    finder = ImageFinder.new('credit cards',0)
 
-    results = finder.findImages('credit cards',count)
+    results = finder.findImages(count)
     expect(results.size).to eq(count)
     
     finder.saveImagesFromUrls(results)
