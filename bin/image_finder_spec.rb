@@ -28,7 +28,7 @@ describe ImageFinder, "grab 10 urls" do
     matches = extensions.zip(urls)
     
     matches.each do |ext,url|
-      expect(ext).to eq(finder.urlToExtension(url))
+      expect(ext).to eq(ImageFinder.urlToExtension(url))
     end
   end
 
@@ -36,7 +36,7 @@ describe ImageFinder, "grab 10 urls" do
     finder = ImageFinder.new('credit cards',4)
     matches = filenames[4..2].zip(urls)
     matches.each_with_index do |item,idx|
-      expect(item[0]).to eq(finder.nameForImageFromUrl(item[1],idx))
+      expect(item[0]).to eq(finder.imageNameFromUrl(item[1],idx))
     end
   end
 
@@ -45,7 +45,7 @@ describe ImageFinder, "grab 10 urls" do
     matches = filenames.zip(urls)
     
     matches.each_with_index do |item,idx|
-      expect(item[0]).to eq(finder.nameForImageFromUrl(item[1],idx))
+      expect(item[0]).to eq(finder.imageNameFromUrl(item[1],idx))
     end
   end
 
