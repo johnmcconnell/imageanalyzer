@@ -9,13 +9,13 @@ describe ImageFinder, "grab 10 urls" do
 	"http://www.sopimc.com/images/popular-credit-cards.jpg",
 	"http://www.sopimc.com/images/popular-credit-cards.jpg",
 	"http://www.sopimc.com/images/popular-credit-cards.jpg",
-	"http://www.sopimc.com/images/popular-credit-cards.jpg",
+	"http://www.sopimc.com/images/popular-credit-cards.png",
 	"http://www.sopimc.com/images/popular-credit-cards.jpg",
 	"http://www.sopimc.com/images/popular-credit-cards.jpg",
 	] }
   let(:extensions) { [
   	".jpg",".jpg",".jpg",".jpg",".jpg",
-  	".jpg",".jpg",".jpg",".jpg",".jpg"
+  	".jpg",".jpg",".png",".jpg",".jpg"
 	] }
   let(:filenames) { [
     	"image-0.jpg","image-1.jpg","image-2.jpg","image-3.jpg","image-4.jpg",
@@ -37,7 +37,7 @@ describe ImageFinder, "grab 10 urls" do
     matches = filenames.zip(urls)
     
     matches.each_with_index do |item,idx|
-      expect(item[0]).to eq(finder.filenameForUrl(item[1],idx))
+      expect(item[0]).to eq(finder.nameForImageFromUrl(item[1],idx))
     end
   end
 
@@ -48,6 +48,6 @@ describe ImageFinder, "grab 10 urls" do
     results = finder.findImages('credit cards',count)
     expect(results.size).to eq(count)
     
-    finder.saveImages(results)
+    finder.saveImagesFromUrls(results)
   end
 end
