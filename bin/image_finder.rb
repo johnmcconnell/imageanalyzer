@@ -4,23 +4,24 @@ require 'open-uri'
 class ImageFinder
   @@base_folder = File.join("images","raw")
   
-  # start idx allow photos to be downloaded 
-  # from farther down the google images 
-  # download page so that rerunning
-  # does not result in duplicates
+  # the start index allows photos to be downloaded 
+  # from farther down the google images web page
+  # this is useful if you need to restart 
+  # downloading and want to avoid duplicates
   def initialize(query,start_idx)
     @query = query
     @start_idx = start_idx
   end
 
-  # query google to find images skip those
-  # from the start index
+  # query google to find images filter results
+  # from the start index and upto the start index
+  # + length
   def findImages(count)
    return ImageFinder.queryImages(@query,@start_idx,count)
   end
 
-  # query google to find images, only use results
-  # from the start and up to the count
+  # query google to find images, filter results
+  # from the start index to start + length
   def self.queryImages(query,start,length)
     search = Google::Search::Image.new(:query => query,
     	:file_type => :jpg)
@@ -28,9 +29,8 @@ class ImageFinder
   end
    
   # given a list of urls find a good filename
-  # and download the image, have the base image
-  # filename use the start_idx and increment
-  # for each image
+  # and download the image, and save the image
+  # into the filename given by the method
   def saveImagesFromUrls(urls)
     urls.each_with_index do |image,idx|
       name = imageNameFromUrl(image.uri, idx)
@@ -61,7 +61,9 @@ class ImageFinder
     end
   end
   
-  # object method alias
+  # create a unique filename by taking the
+  # start index and adding the regular idx
+  # to avoid duplication
   def imageNameFromUrl(url,idx)
     ImageFinder.nameForImageFromUrl(url,@start_idx,idx)
   end
