@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Darren/opencv-2.4.9/edge
+CMAKE_SOURCE_DIR = /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/edge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Darren/opencv-2.4.9/edge
+CMAKE_BINARY_DIR = /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/edge
 
 # Include any dependencies generated for this target.
 include CMakeFiles/edge.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/edge.dir/flags.make
 
 CMakeFiles/edge.dir/edge.cpp.o: CMakeFiles/edge.dir/flags.make
 CMakeFiles/edge.dir/edge.cpp.o: edge.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Darren/opencv-2.4.9/edge/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/edge/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/edge.dir/edge.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/edge.dir/edge.cpp.o -c /Users/Darren/opencv-2.4.9/edge/edge.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/edge.dir/edge.cpp.o -c /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/edge/edge.cpp
 
 CMakeFiles/edge.dir/edge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/edge.dir/edge.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Darren/opencv-2.4.9/edge/edge.cpp > CMakeFiles/edge.dir/edge.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/edge/edge.cpp > CMakeFiles/edge.dir/edge.cpp.i
 
 CMakeFiles/edge.dir/edge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/edge.dir/edge.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Darren/opencv-2.4.9/edge/edge.cpp -o CMakeFiles/edge.dir/edge.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/edge/edge.cpp -o CMakeFiles/edge.dir/edge.cpp.s
 
 CMakeFiles/edge.dir/edge.cpp.o.requires:
 .PHONY : CMakeFiles/edge.dir/edge.cpp.o.requires
@@ -131,6 +131,6 @@ CMakeFiles/edge.dir/clean:
 .PHONY : CMakeFiles/edge.dir/clean
 
 CMakeFiles/edge.dir/depend:
-	cd /Users/Darren/opencv-2.4.9/edge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Darren/opencv-2.4.9/edge /Users/Darren/opencv-2.4.9/edge /Users/Darren/opencv-2.4.9/edge /Users/Darren/opencv-2.4.9/edge /Users/Darren/opencv-2.4.9/edge/CMakeFiles/edge.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/edge && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/edge /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/edge /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/edge /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/edge /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/edge/CMakeFiles/edge.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/edge.dir/depend
 

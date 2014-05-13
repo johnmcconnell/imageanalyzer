@@ -39,7 +39,7 @@ int main( int argc, char** argv )
   convertScaleAbs( dst, abs_dst );
   
   // Write image to file
-  imwrite("laplaced.jpg", abs_dst);
+  imwrite(argv[2], abs_dst);
 
   /// Show what you got
   //imshow( window_name, abs_dst );

@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/Darren/opencv-2.4.9/edge/edge.cpp" "/Users/Darren/opencv-2.4.9/edge/CMakeFiles/edge.dir/edge.cpp.o"
+  "/Users/Darren/imageanalyzer/third-party/opencv-2.4.9/edge/edge.cpp" "/Users/Darren/imageanalyzer/third-party/opencv-2.4.9/edge/CMakeFiles/edge.dir/edge.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "Clang")
 

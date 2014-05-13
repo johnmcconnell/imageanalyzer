@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/Darren/opencv-2.4.9/sobel/sobel.cpp
+/Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/sobel.cpp
 opencv2/imgproc/imgproc.hpp
-/Users/Darren/opencv-2.4.9/sobel/opencv2/imgproc/imgproc.hpp
+/Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/opencv2/imgproc/imgproc.hpp
 opencv2/highgui/highgui.hpp
-/Users/Darren/opencv-2.4.9/sobel/opencv2/highgui/highgui.hpp
+/Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/opencv2/highgui/highgui.hpp
 stdlib.h
 -
 stdio.h

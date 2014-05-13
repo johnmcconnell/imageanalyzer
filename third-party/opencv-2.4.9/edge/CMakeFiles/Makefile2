@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Darren/opencv-2.4.9/edge
+CMAKE_SOURCE_DIR = /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/edge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Darren/opencv-2.4.9/edge
+CMAKE_BINARY_DIR = /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/edge
 
 #=============================================================================
 # Target rules for target CMakeFiles/edge.dir
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /Users/Darren/opencv-2.4.9/edge
 CMakeFiles/edge.dir/all:
 	$(MAKE) -f CMakeFiles/edge.dir/build.make CMakeFiles/edge.dir/depend
 	$(MAKE) -f CMakeFiles/edge.dir/build.make CMakeFiles/edge.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Darren/opencv-2.4.9/edge/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/edge/CMakeFiles  1
 	@echo "Built target edge"
 .PHONY : CMakeFiles/edge.dir/all
 
@@ -72,9 +72,9 @@ all: CMakeFiles/edge.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/edge.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Darren/opencv-2.4.9/edge/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/edge/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/edge.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Darren/opencv-2.4.9/edge/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/edge/CMakeFiles 0
 .PHONY : CMakeFiles/edge.dir/rule
 
 # Convenience name for target.

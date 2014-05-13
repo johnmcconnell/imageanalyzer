@@ -53,7 +53,7 @@ int main( int argc, char** argv )
 
   //waitKey(0);
 
-  imwrite("sobeled.jpg", grad);
+  imwrite(argv[2], grad);
 
   return 0;
   }

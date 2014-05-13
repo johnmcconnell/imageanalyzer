@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Darren/opencv-2.4.9/sobel
+CMAKE_SOURCE_DIR = /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Darren/opencv-2.4.9/sobel
+CMAKE_BINARY_DIR = /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sobel.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/sobel.dir/flags.make
 
 CMakeFiles/sobel.dir/sobel.cpp.o: CMakeFiles/sobel.dir/flags.make
 CMakeFiles/sobel.dir/sobel.cpp.o: sobel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Darren/opencv-2.4.9/sobel/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/sobel.dir/sobel.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sobel.dir/sobel.cpp.o -c /Users/Darren/opencv-2.4.9/sobel/sobel.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sobel.dir/sobel.cpp.o -c /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/sobel.cpp
 
 CMakeFiles/sobel.dir/sobel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sobel.dir/sobel.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Darren/opencv-2.4.9/sobel/sobel.cpp > CMakeFiles/sobel.dir/sobel.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/sobel.cpp > CMakeFiles/sobel.dir/sobel.cpp.i
 
 CMakeFiles/sobel.dir/sobel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sobel.dir/sobel.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Darren/opencv-2.4.9/sobel/sobel.cpp -o CMakeFiles/sobel.dir/sobel.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/sobel.cpp -o CMakeFiles/sobel.dir/sobel.cpp.s
 
 CMakeFiles/sobel.dir/sobel.cpp.o.requires:
 .PHONY : CMakeFiles/sobel.dir/sobel.cpp.o.requires
@@ -131,6 +131,6 @@ CMakeFiles/sobel.dir/clean:
 .PHONY : CMakeFiles/sobel.dir/clean
 
 CMakeFiles/sobel.dir/depend:
-	cd /Users/Darren/opencv-2.4.9/sobel && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Darren/opencv-2.4.9/sobel /Users/Darren/opencv-2.4.9/sobel /Users/Darren/opencv-2.4.9/sobel /Users/Darren/opencv-2.4.9/sobel /Users/Darren/opencv-2.4.9/sobel/CMakeFiles/sobel.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/sobel.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sobel.dir/depend
 

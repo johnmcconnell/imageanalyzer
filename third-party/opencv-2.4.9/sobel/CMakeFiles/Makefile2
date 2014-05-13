@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Darren/opencv-2.4.9/sobel
+CMAKE_SOURCE_DIR = /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Darren/opencv-2.4.9/sobel
+CMAKE_BINARY_DIR = /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel
 
 #=============================================================================
 # Target rules for target CMakeFiles/sobel.dir
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /Users/Darren/opencv-2.4.9/sobel
 CMakeFiles/sobel.dir/all:
 	$(MAKE) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/depend
 	$(MAKE) -f CMakeFiles/sobel.dir/build.make CMakeFiles/sobel.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Darren/opencv-2.4.9/sobel/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles  1
 	@echo "Built target sobel"
 .PHONY : CMakeFiles/sobel.dir/all
 
@@ -72,9 +72,9 @@ all: CMakeFiles/sobel.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/sobel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Darren/opencv-2.4.9/sobel/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/sobel.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Darren/opencv-2.4.9/sobel/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles 0
 .PHONY : CMakeFiles/sobel.dir/rule
 
 # Convenience name for target.
