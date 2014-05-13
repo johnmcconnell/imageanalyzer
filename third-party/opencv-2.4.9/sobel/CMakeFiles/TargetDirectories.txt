@@ -1,0 +1,1 @@
+/Users/Darren/opencv-2.4.9/sobel/CMakeFiles/sobel.dir

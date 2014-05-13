@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+project( laplace )
+find_package( OpenCV REQUIRED )
+add_executable( laplace laplace.cpp )
+target_link_libraries( laplace ${OpenCV_LIBS} )
