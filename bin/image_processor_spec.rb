@@ -5,7 +5,7 @@ describe ImageProcessor, "to from check" do
       yields new filenames" do
       f_base = 'raw'
       t_base = 'non-sense'
-      p = ImageProcessor.new(f_base,t_base,'echo')
+      p = ImageProcessor.new(f_base,t_base,'echo',10)
 
       p.imagepipeline do |from,to|
         f_parts = from.split(File::Separator)
