@@ -15,10 +15,12 @@ class ImageAnalyzer
   def initialize
     @commandByName = {
       'echo' => 'echo',
-      'tesseract' => 'ruby bin/tesseract_processor.rb'
+      'tesseract' => 'ruby bin/tesseract_processor.rb',
+      'filler' => 'ruby bin/filler_processor.rb'
     }
     @dirByName = {
       'echo' => 'ignore',
+      'filler' => 'filler',
       'tesseract' => 'results'
     }
   end
