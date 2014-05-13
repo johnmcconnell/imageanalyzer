@@ -3,8 +3,8 @@ class ImageProcessor
   @@base_dir = 'images'
 
   # automatically adds the base image directory
-  # to the from directory and to directory
-  # to be idiomatic
+  # to the #from directory and the #to directory
+  # to be idiomatic.
   def initialize(from_dir,to_dir,command)
     @from_dir = File.join(@@base_dir,from_dir)
     @to_dir = File.join(@@base_dir,to_dir)
@@ -32,6 +32,7 @@ class ImageProcessor
   # yield the result so that a command may be used
   # on the pair
   def imagepipeline
+    # delete non-image files
     images = Dir.entries(@from_dir).delete_if do |file|
       (file =~ /\w+\.(jpg|jpeg)/) == nil
     end
