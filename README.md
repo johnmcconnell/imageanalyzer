@@ -1,6 +1,10 @@
 ## Image Analyzer
 
 ### usage
+Run the program from the image-analyzer directory
+the filepaths are not absolute therefore a command
+should look like:
+ruby bin/imageanalyzer --task RUN
 
 ```
 Usage: image_analyzer.rb [options]
