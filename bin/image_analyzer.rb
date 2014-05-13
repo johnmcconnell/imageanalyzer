@@ -10,17 +10,43 @@ require_relative 'image_processor'
 #    processing pipeline
 class ImageAnalyzer
   @startFolder = File.join('images','raw')
-
+  
+  # register commands by their aliases here
+  def initialize
+    @commandByName = {
+      'echo' => 'echo',
+      'tesseract' => 'ruby bin/tesseract_processor.rb'
+    }
+    @dirByName = {
+      'echo' => 'ignore',
+      'tesseract' => 'final'
+    }
+  end
+  
+  # download images from the internet
   def gatherImages(start_idx,count)
     manager = ImageFinder.new('credit cards',start_idx)
     urls = manager.findImages(count)
     manager.saveImagesFromUrls(urls)
   end
   
+  # begin the image processing pipeline
+  # it uses thread to avoid over loading
+  # your system
   def processImages(pipeline)
     puts 'processing images'
+    prev_dir = 'raw'
+    pipeline.each do |name|
+      command = @commandByName[name]
+      dir = @dirByName[name]
+      p = ImageProcessor.new(prev_dir,dir,command,10)
+      p.run
+      prev_dir = dir
+    end
   end
+
 end
+
 
 def main(options)
   analyzer = ImageAnalyzer.new
@@ -37,6 +63,7 @@ def main(options)
   end
 end
 
+# argument parsing is done below
 options = {
   :pipe => [],
   :task => 'GATHER'
