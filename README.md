@@ -16,12 +16,12 @@ Usage: image_analyzer.rb [options]
 ```
 
 ### Installation
-# Tesseract needs to be able to be run from
+* Tesseract needs to be able to be run from
 the command line. Follow their instructions
 to install.
 
-# OpenCV can be downloaded from http://opencv.org/downloads.html
-It then needs to be compiled, instructions on Mac:
+* OpenCV can be downloaded from http://opencv.org/downloads.html
+* It then needs to be compiled, instructions on Mac:
 	1) Ensure CMake is installed ("sudo port install cmake")
 	2) Create a build directory under the parent directory
 	3) Run "cmake -G "Unix Makefiles" .."
