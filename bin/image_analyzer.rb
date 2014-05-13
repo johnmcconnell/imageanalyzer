@@ -1,3 +1,4 @@
+require 'optparse'
 require_relative 'image_finder'
 require_relative 'image_processor'
 
@@ -20,16 +21,29 @@ class ImageAnalyzer
   end
 end
 
-def main
+def main(options)
   analyzer = ImageAnalyzer.new
   
   # begin index and end index
-  start = ARGV[0].to_i
-  count = ARGV[1].to_i
+  start = options[:start]
+  count = options[:size]
 
   analyzer.gatherImages(start,count)
   
   analyzer.processImages
 end
 
-main
+options = {}
+OptionParser.new do |opts|
+  opts.banner = "Usage: image_analyzer.rb [these options are necessary]"
+  
+  opts.on("--start N", Integer, "Search at the Nth result and save in the Nth filename") do |n|
+    options[:start] = n
+  end
+
+  opts.on("--size N", Integer, "Search and save N images") do |n| 
+    options[:size] = n
+  end
+end.parse!
+
+main(options)

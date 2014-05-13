@@ -28,7 +28,7 @@ class ImageFinder
   def saveImagesFromUrls(urls)
     urls.each_with_index do |image,idx|
       name = nameForImageFromUrl(image.uri, idx)
-      puts "saving.., " + name
+      puts "saving... " + name
       saveImage(name,image.uri)
     end 
   end
