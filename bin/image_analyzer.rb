@@ -17,32 +17,47 @@ class ImageAnalyzer
     manager.saveImagesFromUrls(urls)
   end
   
-  def processImages
+  def processImages(pipeline)
+    puts 'processing images'
   end
 end
 
 def main(options)
   analyzer = ImageAnalyzer.new
   
-  # begin index and end index
-  start = options[:start]
-  count = options[:size]
+  # compare task to run, default is downlaod
+  if (options[:task].casecmp('run') == 0)
+    analyzer.processImages(options[:pipe])
+  else
+    # begin index and end index
+    start = options[:start]
+    count = options[:size]
 
-  analyzer.gatherImages(start,count)
-  
-  analyzer.processImages
+    analyzer.gatherImages(start,count)
+  end
 end
 
-options = {}
+options = {
+  :pipe => [],
+  :task => 'GATHER'
+  }
 OptionParser.new do |opts|
-  opts.banner = "Usage: image_analyzer.rb [these options are necessary]"
+  opts.banner = "Usage: image_analyzer.rb [options]"
   
-  opts.on("--start N", Integer, "Search at the Nth result and save in the Nth filename") do |n|
+  opts.on("--start N", Integer, "Search at the Nth result and start indexing at the Nth filename") do |n|
     options[:start] = n
   end
 
-  opts.on("--size N", Integer, "Search and save N images") do |n| 
+  opts.on("--size N", Integer, "Search for and save the N images.") do |n| 
     options[:size] = n
+  end
+
+  opts.on("--task [DOWNLOAD|RUN]","Download images or run images through pipeline.") do |task|
+    options[:task] = task
+  end
+  
+  opts.on("--pipeline p1,p2,p3",Array,"Designate which parts of the pipeline to run.") do |pipe|
+    options[:pipe] = pipe
   end
 end.parse!
 
