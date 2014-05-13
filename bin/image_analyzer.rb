@@ -19,7 +19,7 @@ class ImageAnalyzer
     }
     @dirByName = {
       'echo' => 'ignore',
-      'tesseract' => 'final'
+      'tesseract' => 'results'
     }
   end
   
