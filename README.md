@@ -3,9 +3,10 @@
 ### usage
 
 ```
-ruby bin/image_analyzer [start_idx] [count] 
-     # start_idx is the start number of the image file and search query
-     # count is the number of images to download
+Usage: image_analyzer.rb [these options are necessary]
+      --start N                    Search at the Nth result and save in the Nth filename
+      --size N                     Search and save N images
+
 ```
 
 ### Dependencies
