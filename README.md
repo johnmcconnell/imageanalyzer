@@ -1,6 +1,6 @@
 ## Image Analyzer
 
-### usage
+### Usage
 Run the program from the image-analyzer directory
 the filepaths are not absolute therefore a command
 should look like:
@@ -14,6 +14,11 @@ Usage: image_analyzer.rb [options]
 	--pipeline p1,p2,p3          Designate which parts of the pipeline to run.
 
 ```
+
+### Installation
+tesseract needs to be able to be run from
+the command line. Follow their instructions
+to install.
 
 ### Dependencies
 1. ruby gems
