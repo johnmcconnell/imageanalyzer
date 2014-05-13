@@ -22,11 +22,11 @@ to install.
 
 * OpenCV can be downloaded from http://opencv.org/downloads.html
 * It then needs to be compiled, instructions on Mac:
-	1) Ensure CMake is installed ("sudo port install cmake")
-	2) Create a build directory under the parent directory
-	3) Run "cmake -G "Unix Makefiles" .."
-	4) Run "make -j8"
-	5) Run "sudo make install"
+  1 Ensure CMake is installed ("sudo port install cmake")
+  2 Create a build directory under the parent directory 
+  3 Run "cmake -G "Unix Makefiles" .."
+  4 Run "make -j8"
+  5 Run "sudo make install"
 
 ### Dependencies
 1. ruby gems
