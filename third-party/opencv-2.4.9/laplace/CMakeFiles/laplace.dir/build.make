@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Darren/opencv-2.4.9/laplace
+CMAKE_SOURCE_DIR = /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Darren/opencv-2.4.9/laplace
+CMAKE_BINARY_DIR = /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace
 
 # Include any dependencies generated for this target.
 include CMakeFiles/laplace.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/laplace.dir/flags.make
 
 CMakeFiles/laplace.dir/laplace.cpp.o: CMakeFiles/laplace.dir/flags.make
 CMakeFiles/laplace.dir/laplace.cpp.o: laplace.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Darren/opencv-2.4.9/laplace/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/laplace.dir/laplace.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/laplace.dir/laplace.cpp.o -c /Users/Darren/opencv-2.4.9/laplace/laplace.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/laplace.dir/laplace.cpp.o -c /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace/laplace.cpp
 
 CMakeFiles/laplace.dir/laplace.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/laplace.dir/laplace.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Darren/opencv-2.4.9/laplace/laplace.cpp > CMakeFiles/laplace.dir/laplace.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace/laplace.cpp > CMakeFiles/laplace.dir/laplace.cpp.i
 
 CMakeFiles/laplace.dir/laplace.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/laplace.dir/laplace.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Darren/opencv-2.4.9/laplace/laplace.cpp -o CMakeFiles/laplace.dir/laplace.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace/laplace.cpp -o CMakeFiles/laplace.dir/laplace.cpp.s
 
 CMakeFiles/laplace.dir/laplace.cpp.o.requires:
 .PHONY : CMakeFiles/laplace.dir/laplace.cpp.o.requires
@@ -84,37 +84,39 @@ laplace_EXTERNAL_OBJECTS =
 
 laplace: CMakeFiles/laplace.dir/laplace.cpp.o
 laplace: CMakeFiles/laplace.dir/build.make
-laplace: /opt/local/lib/libopencv_videostab.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_video.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_ts.a
-laplace: /opt/local/lib/libopencv_superres.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_stitching.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_photo.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_objdetect.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_nonfree.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_ml.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_legacy.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_imgproc.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_highgui.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_gpu.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_flann.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_features2d.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_core.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_contrib.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_calib3d.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_nonfree.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_gpu.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_photo.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_objdetect.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_legacy.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_video.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_ml.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_calib3d.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_features2d.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_highgui.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_imgproc.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_flann.2.4.9.dylib
-laplace: /opt/local/lib/libopencv_core.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_videostab.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_video.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_ts.a
+laplace: /usr/local/lib/libopencv_superres.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_stitching.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_photo.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_ocl.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_objdetect.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_nonfree.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_ml.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_legacy.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_imgproc.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_highgui.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_gpu.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_flann.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_features2d.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_core.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_contrib.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_calib3d.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_nonfree.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_ocl.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_gpu.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_photo.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_objdetect.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_legacy.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_video.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_ml.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_calib3d.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_features2d.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_highgui.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_imgproc.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_flann.2.4.9.dylib
+laplace: /usr/local/lib/libopencv_core.2.4.9.dylib
 laplace: CMakeFiles/laplace.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable laplace"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/laplace.dir/link.txt --verbose=$(VERBOSE)
@@ -131,6 +133,6 @@ CMakeFiles/laplace.dir/clean:
 .PHONY : CMakeFiles/laplace.dir/clean
 
 CMakeFiles/laplace.dir/depend:
-	cd /Users/Darren/opencv-2.4.9/laplace && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Darren/opencv-2.4.9/laplace /Users/Darren/opencv-2.4.9/laplace /Users/Darren/opencv-2.4.9/laplace /Users/Darren/opencv-2.4.9/laplace /Users/Darren/opencv-2.4.9/laplace/CMakeFiles/laplace.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace/CMakeFiles/laplace.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/laplace.dir/depend
 

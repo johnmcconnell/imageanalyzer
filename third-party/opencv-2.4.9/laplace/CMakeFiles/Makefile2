@@ -50,10 +50,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Darren/opencv-2.4.9/laplace
+CMAKE_SOURCE_DIR = /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Darren/opencv-2.4.9/laplace
+CMAKE_BINARY_DIR = /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace
 
 #=============================================================================
 # Target rules for target CMakeFiles/laplace.dir
@@ -62,7 +62,7 @@ CMAKE_BINARY_DIR = /Users/Darren/opencv-2.4.9/laplace
 CMakeFiles/laplace.dir/all:
 	$(MAKE) -f CMakeFiles/laplace.dir/build.make CMakeFiles/laplace.dir/depend
 	$(MAKE) -f CMakeFiles/laplace.dir/build.make CMakeFiles/laplace.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Darren/opencv-2.4.9/laplace/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace/CMakeFiles  1
 	@echo "Built target laplace"
 .PHONY : CMakeFiles/laplace.dir/all
 
@@ -72,9 +72,9 @@ all: CMakeFiles/laplace.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/laplace.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Darren/opencv-2.4.9/laplace/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/laplace.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Darren/opencv-2.4.9/laplace/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace/CMakeFiles 0
 .PHONY : CMakeFiles/laplace.dir/rule
 
 # Convenience name for target.

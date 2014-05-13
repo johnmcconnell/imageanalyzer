@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/Darren/opencv-2.4.9/laplace/laplace.cpp" "/Users/Darren/opencv-2.4.9/laplace/CMakeFiles/laplace.dir/laplace.cpp.o"
+  "/Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace/laplace.cpp" "/Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace/CMakeFiles/laplace.dir/laplace.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "Clang")
 
@@ -14,8 +14,8 @@ SET(CMAKE_TARGET_LINKED_INFO_FILES
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "/opt/local/include/opencv"
-  "/opt/local/include"
+  "/usr/local/include/opencv"
+  "/usr/local/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

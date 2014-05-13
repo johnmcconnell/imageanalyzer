@@ -32,5 +32,6 @@ to install.
 1. ruby gems
    1. google-search
    2. tesseract-ocr (interface for c program)
+   3. Rmagick which requires port install imagemagick on Mac OSX
 2. c programs
    1. tesseract-ocr

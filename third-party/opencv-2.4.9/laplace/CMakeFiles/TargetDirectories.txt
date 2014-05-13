@@ -1,1 +1,1 @@
-/Users/Darren/opencv-2.4.9/laplace/CMakeFiles/laplace.dir
+/Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace/CMakeFiles/laplace.dir
