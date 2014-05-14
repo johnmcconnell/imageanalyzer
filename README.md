@@ -28,6 +28,11 @@ to install.
   4. Run "make -j8"
   5. Run "sudo make install"
 
+* Install individual opencv processor
+  1. rm -rf CMakeCache.txt CMakeFiles/ Makefile cmake_install.cmake sobel
+  2. cmake .
+  3. make
+
 ### Testing
 Run all unit tests.
 ```

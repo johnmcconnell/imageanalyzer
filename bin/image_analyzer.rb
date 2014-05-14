@@ -17,13 +17,15 @@ class ImageAnalyzer
       'echo' => 'echo',
       'tesseract' => 'ruby bin/tesseract_processor.rb',
       'laplace' => 'ruby bin/laplace_processor.rb',
-      'filler' => 'ruby bin/filler_processor.rb'
+      'filler' => 'ruby bin/filler_processor.rb',
+      'sobel' => 'ruby bin/sobel_processor.rb'
     }
     @dirByName = {
       'echo' => 'ignore',
       'filler' => 'filler',
       'laplace' => 'laplace',
-      'tesseract' => 'results'
+      'tesseract' => 'results',
+      'sobel' => 'sobel'
     }
   end
   

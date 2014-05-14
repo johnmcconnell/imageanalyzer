@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is Clang, found in "/Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
+The C compiler identification is Clang, found in "/Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/2.8.12.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,62 +23,60 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is Clang, found in "/Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
+The CXX compiler identification is Clang, found in "/Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/2.8.12.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp
+Change Dir: /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1606620496/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1606620496.dir/build.make CMakeFiles/cmTryCompileExec1606620496.dir/build
-/opt/local/bin/cmake -E cmake_progress_report /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec1606620496.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1606620496.dir/testCCompiler.c.o   -c /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTryCompileExec1606620496
-/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1606620496.dir/link.txt --verbose=1
-/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1606620496.dir/testCCompiler.c.o  -o cmTryCompileExec1606620496  
+Run Build Command:/usr/bin/make "cmTryCompileExec1780360503/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1780360503.dir/build.make CMakeFiles/cmTryCompileExec1780360503.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1780360503.dir/testCCompiler.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec1780360503.dir/testCCompiler.c.o   -c /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1780360503
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1780360503.dir/link.txt --verbose=1
+/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec1780360503.dir/testCCompiler.c.o  -o cmTryCompileExec1780360503  
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp
+Change Dir: /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec959512034/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec959512034.dir/build.make CMakeFiles/cmTryCompileExec959512034.dir/build
-/opt/local/bin/cmake -E cmake_progress_report /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building C object CMakeFiles/cmTryCompileExec959512034.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTryCompileExec959512034.dir/CMakeCCompilerABI.c.o   -c /opt/local/share/cmake-2.8/Modules/CMakeCCompilerABI.c
-Linking C executable cmTryCompileExec959512034
-/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec959512034.dir/link.txt --verbose=1
-/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec959512034.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec959512034   
+Run Build Command:/usr/bin/make "cmTryCompileExec1425041484/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1425041484.dir/build.make CMakeFiles/cmTryCompileExec1425041484.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1425041484.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec1425041484.dir/CMakeCCompilerABI.c.o   -c /opt/local/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec1425041484
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1425041484.dir/link.txt --verbose=1
+/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec1425041484.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1425041484   
 Apple LLVM version 5.1 (clang-503.0.40) (based on LLVM 3.4svn)
 Target: x86_64-apple-darwin13.1.0
 Thread model: posix
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -o cmTryCompileExec959512034 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec959512034.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o cmTryCompileExec1425041484 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec1425041484.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a
 @(#)PROGRAM:ld  PROJECT:ld64-236.4
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 armv6m armv7m armv7em
 Library search paths:
-	/usr/lib
-	/usr/local/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib
 Framework search paths:
-	/Library/Frameworks/
-	/System/Library/Frameworks/
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec959512034/fast"]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec959512034.dir/build.make CMakeFiles/cmTryCompileExec959512034.dir/build]
-  ignore line: [/opt/local/bin/cmake -E cmake_progress_report /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building C object CMakeFiles/cmTryCompileExec959512034.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec959512034.dir/CMakeCCompilerABI.c.o   -c /opt/local/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTryCompileExec959512034]
-  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec959512034.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc    -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec959512034.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec959512034   ]
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1425041484/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1425041484.dir/build.make CMakeFiles/cmTryCompileExec1425041484.dir/build]
+  ignore line: [/opt/local/bin/cmake -E cmake_progress_report /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec1425041484.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec1425041484.dir/CMakeCCompilerABI.c.o   -c /opt/local/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec1425041484]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1425041484.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec1425041484.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec1425041484   ]
   ignore line: [Apple LLVM version 5.1 (clang-503.0.40) (based on LLVM 3.4svn)]
   ignore line: [Target: x86_64-apple-darwin13.1.0]
   ignore line: [Thread model: posix]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -o cmTryCompileExec959512034 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec959512034.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o cmTryCompileExec1425041484 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec1425041484.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-dynamic] ==> ignore
@@ -86,81 +84,79 @@ Parsed C implicit link information from above output:
     arg [x86_64] ==> ignore
     arg [-macosx_version_min] ==> ignore
     arg [10.9.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec959512034] ==> ignore
+    arg [cmTryCompileExec1425041484] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTryCompileExec959512034.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec1425041484.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lSystem] ==> lib [System]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
-  Library search paths: [;/usr/lib;/usr/local/lib]
-  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/]
   remove lib [System]
   collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
-  collapse library dir [/usr/lib] ==> [/usr/lib]
-  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
-  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
-  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks]
   implicit libs: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
-  implicit dirs: [/usr/lib;/usr/local/lib]
-  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks]
 
 
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp
+Change Dir: /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec3682506288/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec3682506288.dir/build.make CMakeFiles/cmTryCompileExec3682506288.dir/build
-/opt/local/bin/cmake -E cmake_progress_report /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec3682506288.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3682506288.dir/testCXXCompiler.cxx.o -c /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTryCompileExec3682506288
-/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3682506288.dir/link.txt --verbose=1
-/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec3682506288.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3682506288  
+Run Build Command:/usr/bin/make "cmTryCompileExec2894153188/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec2894153188.dir/build.make CMakeFiles/cmTryCompileExec2894153188.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2894153188.dir/testCXXCompiler.cxx.o
+/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec2894153188.dir/testCXXCompiler.cxx.o -c /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec2894153188
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2894153188.dir/link.txt --verbose=1
+/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTryCompileExec2894153188.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec2894153188  
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp
+Change Dir: /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp
 
-Run Build Command:/usr/bin/make "cmTryCompileExec1166129629/fast"
-/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1166129629.dir/build.make CMakeFiles/cmTryCompileExec1166129629.dir/build
-/opt/local/bin/cmake -E cmake_progress_report /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp/CMakeFiles 1
-Building CXX object CMakeFiles/cmTryCompileExec1166129629.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1166129629.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTryCompileExec1166129629
-/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1166129629.dir/link.txt --verbose=1
-/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec1166129629.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1166129629   
+Run Build Command:/usr/bin/make "cmTryCompileExec413639815/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec413639815.dir/build.make CMakeFiles/cmTryCompileExec413639815.dir/build
+/opt/local/bin/cmake -E cmake_progress_report /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec413639815.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec413639815.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec413639815
+/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec413639815.dir/link.txt --verbose=1
+/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec413639815.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec413639815   
 Apple LLVM version 5.1 (clang-503.0.40) (based on LLVM 3.4svn)
 Target: x86_64-apple-darwin13.1.0
 Thread model: posix
- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -o cmTryCompileExec1166129629 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec1166129629.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o cmTryCompileExec413639815 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec413639815.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a
 @(#)PROGRAM:ld  PROJECT:ld64-236.4
 configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 armv6m armv7m armv7em
 Library search paths:
-	/usr/lib
-	/usr/local/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib
 Framework search paths:
-	/Library/Frameworks/
-	/System/Library/Frameworks/
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec1166129629/fast"]
-  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec1166129629.dir/build.make CMakeFiles/cmTryCompileExec1166129629.dir/build]
-  ignore line: [/opt/local/bin/cmake -E cmake_progress_report /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp/CMakeFiles 1]
-  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec1166129629.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1166129629.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTryCompileExec1166129629]
-  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1166129629.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++     -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec1166129629.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec1166129629   ]
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec413639815/fast"]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTryCompileExec413639815.dir/build.make CMakeFiles/cmTryCompileExec413639815.dir/build]
+  ignore line: [/opt/local/bin/cmake -E cmake_progress_report /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec413639815.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk   -o CMakeFiles/cmTryCompileExec413639815.dir/CMakeCXXCompilerABI.cpp.o -c /opt/local/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec413639815]
+  ignore line: [/opt/local/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec413639815.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++     -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTryCompileExec413639815.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec413639815   ]
   ignore line: [Apple LLVM version 5.1 (clang-503.0.40) (based on LLVM 3.4svn)]
   ignore line: [Target: x86_64-apple-darwin13.1.0]
   ignore line: [Thread model: posix]
-  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -o cmTryCompileExec1166129629 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec1166129629.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.9.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o cmTryCompileExec413639815 -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTryCompileExec413639815.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
     arg [-demangle] ==> ignore
     arg [-dynamic] ==> ignore
@@ -168,25 +164,25 @@ Parsed CXX implicit link information from above output:
     arg [x86_64] ==> ignore
     arg [-macosx_version_min] ==> ignore
     arg [10.9.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTryCompileExec1166129629] ==> ignore
+    arg [cmTryCompileExec413639815] ==> ignore
     arg [-search_paths_first] ==> ignore
     arg [-headerpad_max_install_names] ==> ignore
     arg [-v] ==> ignore
-    arg [CMakeFiles/cmTryCompileExec1166129629.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTryCompileExec413639815.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lc++] ==> lib [c++]
     arg [-lSystem] ==> lib [System]
     arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
-  Library search paths: [;/usr/lib;/usr/local/lib]
-  Framework search paths: [;/Library/Frameworks/;/System/Library/Frameworks/]
+  Library search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/]
   remove lib [System]
   collapse lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a] ==> [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
-  collapse library dir [/usr/lib] ==> [/usr/lib]
-  collapse library dir [/usr/local/lib] ==> [/usr/local/lib]
-  collapse framework dir [/Library/Frameworks/] ==> [/Library/Frameworks]
-  collapse framework dir [/System/Library/Frameworks/] ==> [/System/Library/Frameworks]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks]
   implicit libs: [c++;/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a]
-  implicit dirs: [/usr/lib;/usr/local/lib]
-  implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
+  implicit dirs: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks]
 
 

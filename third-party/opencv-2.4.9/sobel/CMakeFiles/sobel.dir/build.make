@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel
+CMAKE_SOURCE_DIR = /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel
+CMAKE_BINARY_DIR = /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sobel.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/sobel.dir/flags.make
 
 CMakeFiles/sobel.dir/sobel.cpp.o: CMakeFiles/sobel.dir/flags.make
 CMakeFiles/sobel.dir/sobel.cpp.o: sobel.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/sobel.dir/sobel.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sobel.dir/sobel.cpp.o -c /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/sobel.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/sobel.dir/sobel.cpp.o -c /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/sobel.cpp
 
 CMakeFiles/sobel.dir/sobel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sobel.dir/sobel.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/sobel.cpp > CMakeFiles/sobel.dir/sobel.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/sobel.cpp > CMakeFiles/sobel.dir/sobel.cpp.i
 
 CMakeFiles/sobel.dir/sobel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sobel.dir/sobel.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/sobel.cpp -o CMakeFiles/sobel.dir/sobel.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/sobel.cpp -o CMakeFiles/sobel.dir/sobel.cpp.s
 
 CMakeFiles/sobel.dir/sobel.cpp.o.requires:
 .PHONY : CMakeFiles/sobel.dir/sobel.cpp.o.requires
@@ -84,37 +84,39 @@ sobel_EXTERNAL_OBJECTS =
 
 sobel: CMakeFiles/sobel.dir/sobel.cpp.o
 sobel: CMakeFiles/sobel.dir/build.make
-sobel: /opt/local/lib/libopencv_videostab.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_video.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_ts.a
-sobel: /opt/local/lib/libopencv_superres.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_stitching.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_photo.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_objdetect.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_nonfree.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_ml.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_legacy.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_imgproc.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_highgui.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_gpu.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_flann.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_features2d.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_core.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_contrib.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_calib3d.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_nonfree.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_gpu.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_photo.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_objdetect.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_legacy.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_video.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_ml.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_calib3d.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_features2d.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_highgui.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_imgproc.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_flann.2.4.9.dylib
-sobel: /opt/local/lib/libopencv_core.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_videostab.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_video.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_ts.a
+sobel: /usr/local/lib/libopencv_superres.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_stitching.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_photo.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_ocl.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_objdetect.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_nonfree.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_ml.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_legacy.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_imgproc.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_highgui.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_gpu.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_flann.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_features2d.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_core.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_contrib.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_calib3d.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_nonfree.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_ocl.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_gpu.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_photo.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_objdetect.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_legacy.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_video.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_ml.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_calib3d.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_features2d.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_highgui.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_imgproc.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_flann.2.4.9.dylib
+sobel: /usr/local/lib/libopencv_core.2.4.9.dylib
 sobel: CMakeFiles/sobel.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable sobel"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sobel.dir/link.txt --verbose=$(VERBOSE)
@@ -131,6 +133,6 @@ CMakeFiles/sobel.dir/clean:
 .PHONY : CMakeFiles/sobel.dir/clean
 
 CMakeFiles/sobel.dir/depend:
-	cd /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/sobel.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/CMakeFiles/sobel.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sobel.dir/depend
 

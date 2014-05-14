@@ -11,10 +11,6 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/2.8.12.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/2.8.12.2/CMakeSystem.cmake"
   "CMakeLists.txt"
-  "/opt/local/share/OpenCV/OpenCVConfig-version.cmake"
-  "/opt/local/share/OpenCV/OpenCVConfig.cmake"
-  "/opt/local/share/OpenCV/OpenCVModules-release.cmake"
-  "/opt/local/share/OpenCV/OpenCVModules.cmake"
   "/opt/local/share/cmake-2.8/Modules/CMakeCCompiler.cmake.in"
   "/opt/local/share/cmake-2.8/Modules/CMakeCCompilerABI.c"
   "/opt/local/share/cmake-2.8/Modules/CMakeCInformation.cmake"
@@ -48,6 +44,10 @@ SET(CMAKE_MAKEFILE_DEPENDS
   "/opt/local/share/cmake-2.8/Modules/Platform/Darwin-Clang.cmake"
   "/opt/local/share/cmake-2.8/Modules/Platform/Darwin.cmake"
   "/opt/local/share/cmake-2.8/Modules/Platform/UnixPaths.cmake"
+  "/usr/local/share/OpenCV/OpenCVConfig-version.cmake"
+  "/usr/local/share/OpenCV/OpenCVConfig.cmake"
+  "/usr/local/share/OpenCV/OpenCVModules-release.cmake"
+  "/usr/local/share/OpenCV/OpenCVModules.cmake"
   )
 
 # The corresponding makefile is:
