@@ -8,10 +8,11 @@ ruby bin/imageanalyzer --task RUN
 
 ```
 Usage: image_analyzer.rb [options]
-	--start N                    Search at the Nth result and start indexing at the Nth filename
-	--size N                     Search for and save the N images.
-	--task [DOWNLOAD|RUN]        Download images or run images through pipeline.
-	--pipeline p1,p2,p3          Designate which parts of the pipeline to run.
+    --start N                    Search at the Nth result and start indexing at the Nth filename
+    --size N                     Search for and save the N images.
+    --task [DOWNLOAD|RUN]        Download images or run images through pipeline.
+    --pipeline p1,p2,p3          Designate which parts of the pipeline to run. There is tesseract, laplace, sobel, and check.
+    --query query                Customize the search term to find new images. The default is credit cards.
 
 ```
 
@@ -27,6 +28,17 @@ to install.
   3. Run "cmake -G "Unix Makefiles" .."
   4. Run "make -j8"
   5. Run "sudo make install"
+
+* Install individual opencv processor
+  1. rm -rf CMakeCache.txt CMakeFiles/ Makefile cmake_install.cmake sobel
+  2. cmake .
+  3. make
+
+### Testing
+Run all unit tests.
+```
+rspec bin/*_spec.rb
+```
 
 ### Dependencies
 1. ruby gems

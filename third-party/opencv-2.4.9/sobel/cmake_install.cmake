@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel
+# Install script for directory: /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,7 +33,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "/Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "/Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "/Users/Darren/imageanalyzer/third-party/opencv-2.4.9/sobel/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "/Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/sobel/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)
