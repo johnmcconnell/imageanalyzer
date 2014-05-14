@@ -28,6 +28,12 @@ to install.
   4. Run "make -j8"
   5. Run "sudo make install"
 
+### Testing
+Run all unit tests.
+```
+rspec bin/*_spec.rb
+```
+
 ### Dependencies
 1. ruby gems
    1. google-search

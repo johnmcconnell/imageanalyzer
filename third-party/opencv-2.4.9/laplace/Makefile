@@ -42,17 +42,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /opt/local/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-<<<<<<< HEAD
-CMAKE_SOURCE_DIR = /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/laplace
-
-# The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/laplace
-=======
 CMAKE_SOURCE_DIR = /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace
->>>>>>> 69f9041ee532a8e5b4e778f092642b1517028829
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,15 +72,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-<<<<<<< HEAD
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/laplace/CMakeFiles /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/laplace/CMakeFiles/progress.marks
-	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Darren/imageanalyzer/third-party/opencv-2.4.9/laplace/CMakeFiles 0
-=======
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace/CMakeFiles /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/davidjo/Workspace/Git/image-analyzer/third-party/opencv-2.4.9/laplace/CMakeFiles 0
->>>>>>> 69f9041ee532a8e5b4e778f092642b1517028829
 .PHONY : all
 
 # The main clean target

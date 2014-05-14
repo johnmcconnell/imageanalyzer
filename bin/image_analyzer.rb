@@ -16,18 +16,20 @@ class ImageAnalyzer
     @commandByName = {
       'echo' => 'echo',
       'tesseract' => 'ruby bin/tesseract_processor.rb',
+      'laplace' => 'ruby bin/laplace_processor.rb',
       'filler' => 'ruby bin/filler_processor.rb'
     }
     @dirByName = {
       'echo' => 'ignore',
       'filler' => 'filler',
+      'laplace' => 'laplace',
       'tesseract' => 'results'
     }
   end
   
   # download images from the internet
-  def gatherImages(start_idx,count)
-    manager = ImageFinder.new('credit cards',start_idx)
+  def gatherImages(query,start_idx,count)
+    manager = ImageFinder.new(query,start_idx)
     urls = manager.findImages(count)
     manager.saveImagesFromUrls(urls)
   end
@@ -60,15 +62,17 @@ def main(options)
     # begin index and end index
     start = options[:start]
     count = options[:size]
+    query = options[:query]
 
-    analyzer.gatherImages(start,count)
+    analyzer.gatherImagesa(query,start,count)
   end
 end
 
 # argument parsing is done below
 options = {
   :pipe => [],
-  :task => 'GATHER'
+  :task => 'GATHER',
+  :query => 'credit cards'
   }
 OptionParser.new do |opts|
   opts.banner = "Usage: image_analyzer.rb [options]"
@@ -85,8 +89,11 @@ OptionParser.new do |opts|
     options[:task] = task
   end
   
-  opts.on("--pipeline p1,p2,p3",Array,"Designate which parts of the pipeline to run.") do |pipe|
+  opts.on("--pipeline p1,p2,p3",Array,"Designate which parts of the pipeline to run. There is tesseract, laplace, and sobel") do |pipe|
     options[:pipe] = pipe
+  end
+  opts.on("--query query","Customize the search term to find new images. The default is credit cards.") do |query|
+    options[:query] = query
   end
 end.parse!
 
