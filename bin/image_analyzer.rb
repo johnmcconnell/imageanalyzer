@@ -68,7 +68,7 @@ def main(options)
     count = options[:size]
     query = options[:query]
 
-    analyzer.gatherImagesa(query,start,count)
+    analyzer.gatherImages(query,start,count)
   end
 end
 
