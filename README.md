@@ -42,6 +42,8 @@ to install.
   2. cmake .
   3. make
 
+* Lastly run `ruby install.rb`
+
 ### Testing
 Run all unit tests.
 ```
