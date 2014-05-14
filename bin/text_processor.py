@@ -1,23 +1,27 @@
 import os
-from os.path import isfile, join
+import sys
 
-direct = os.getcwd()
-printing = 1
-good_files = []
+## INPUTS
+## 1 - source file
+## 2 - dest file
+##
+## the source file is stripped down and checked whether or not it contains
+## useful data, if so the semi-formatted data is written to the dest file
 
-mypath = direct+"/../images/results"
-for i in [ f for f in os.listdir(mypath) if isfile(join(mypath,f)) ]:
-	size = os.path.getsize(mypath + "/" + i)
-	if(size > 5):
-		f = open(mypath + "/" + i)
-		goodfile = 0
-		for line in f:
-			line = line.translate(None, "\n")
-			line = line.translate(None, " ")
+if len(sys.argv) > 2:
+	src = sys.argv[1]
+	dst = sys.argv[2]
+	size = os.path.getsize(src)
+	if(size > 3):
+		print "opening " + src + " for reading"
+		srcf = open(src)
+		dstf = open(dst, 'w')
+		for line in srcf:
+			line = line.translate(None, "\n, ")
 			if len(line) > 3:
-				goodfile = 1
-				#print line
-		if goodfile == 1:
-			good_files.append(i)
-			goodfile = 0
-print good_files
+				dstf.write(line + "\n")
+				print "writing " + line + " to " + dst
+else:
+	print "NEED 2 ARGS - SRC , DST"	
+
+			
