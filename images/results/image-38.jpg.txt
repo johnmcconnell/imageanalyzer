@@ -1,4 +1,0 @@
-j
-wsn ‘
-  DISC VER'
-
